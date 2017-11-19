@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- GOOGLE FONT API ---------- */
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+/* ---------- UPPER NAV CSS ---------- */
+body {
+	font-family: Lato, sans-serif;
+	font-size: 1.5vmax;
+	background-color: #D4D1B0;
+	}
+
+.uppernav {
+	background-color: #D5CD5D;
+	width: 100%;
+	padding: 18px;
+	text-align: right;
+	}
+
+li.nav {
+	display: inline;
+	margin-right: 30px;
+	}
+
+li.nav.register {
+	border-style: solid;
+	border-width: 0px 3px;
+	border-color: #4F6F6B;
+	padding: 17px 12px;
+	}
+
+.nav:link {
+	text-decoration: none;
+	color: #4F6F6B;
+	}
+
+.nav:visited {
+	color: #4F6F6B;
+	}
+
+ .nav:hover {
+	 color: #7BA35D;
+	 -webkit-transform-style: scale(20);
+	 -moz-transform-style: scale(20);
+	 transform-style: scale(20);
+ 	}
+
+
+
+/* ---------- TITLE CSS ---------- */
+.mbsr:link {
+	text-decoration: none;
+	color: #FAF9EB;
+	}
+
+.mbsr:visited  {
+	color: #FAF9EB;
+	}
+
+.mbsr:hover  {
+	color: #4F6F50;
+	}
+
+.title {
+	background-color: #7BA35D;
+	line-height: 1.25;
+	width: 100%;
+	padding: 25px 1px;
+	text-align: center;
+}
+
+h1, h2 {
+ 	font-weight: 100;
+	letter-spacing: 0.05em;
+ }
+
+ h1 {
+	 font-size: 4vw;
+ }
+
+ h2 {
+	 font-size: 3vw;
+ }
+
+
+/* ---------- SPLITSCREEN CSS ---------- */
+
+.splitscreen {
+	background-color: #D4D1B0;
+	position: absolute;
+	width: 100%;
+	float: left;
+	overflow: auto;
+	}
+
+.img-div {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	}
+
+.img-div img {
+	width: 100%;
+	}
+
+.img-div a {
+	text-decoration: none;
+	}
+
+.txt-div {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	}
+
+.txt-div h2 {
+	text-align: center;
+	color: #1E4B52;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+
+img {
+    opacity: 1;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    float: left;
+	}
+
+img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+	}
+/*
+.pw {
+	font-size: 24px;
+	padding: 2px;
+	position: fixed;
+	float: left;
+	top: 20em;
+	left: 24em;
+	z-index: 1;
+	}
+
+input {
+	padding: 10px 2px 1px 2px;
+	border: 1px solid #1E4B52;
+	}
+*/

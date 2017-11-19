@@ -1,0 +1,263 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+@import url("http://fonts.googleapis.com/css?family=Lato");
+
+header, footer, nav, article {
+	display: block;
+}
+
+body {
+	background-color: #333;
+	background-image: url(../images/skewed_print.png);
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #333;
+	font-family: Lato, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Lobster, Helvetica, sans-serif;
+	color: #333;
+}
+
+h4 {
+	color: #E7E260;
+}
+
+a {
+	text-decoration: none;
+	color: #E7E260;
+}
+
+a:visited {
+	color: #B08A0E;
+}
+
+a:hover {
+	color: #FAA82D;
+}
+
+a:focus {
+	color: #FAA82D;
+}
+
+a:visited:hover {
+	color: #B66F05;
+}
+
+header {
+	height: 315px;
+	background-color: #888;
+	background: url(../images/BkdDuotone.png) no-repeat center top fixed;
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+  	background-size: 100% auto;
+	border-style: solid;
+	border-color: #DA6D10;
+	border-width: 0px 0px 9px 0px;
+}
+
+nav {
+	background-color: #0A2769;
+	border-style: solid;
+	border-color: #E7E260;
+	border-width: 6px 0px 6px 0px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+nav a {
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 15px;
+	font-family: Lobster, Helvetica, sans-serif;
+}
+
+.inkerlistitems {
+	display: block;
+}
+
+.inkerlist {
+	display: none;
+}
+
+footer {
+	background-color: #0A2769;
+	border-style: solid;
+	border-color: #FAA82D;
+	border-width: 3px 0px 3px 0px;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #E7E260;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+footer a {
+	font-family: font-family: Lato, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+.page {
+	background-color: #7BCDDA;
+	padding: 40px;
+	border-style: solid;
+	border-color: #DA6D10;
+	border-width: 9px 0px 0px 0px;
+}
+
+.logo {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.copyright {
+	margin: 40px;
+	color: #7BCDDA;
+	text-decoration: none;
+	font-size: .75em;
+	line-height: 1.5em;
+}
+
+.copyright a {
+		font-family: font-family: Lato, Helvetica, sans-serif;
+		text-decoration: underline;
+		color: #7BCDDA;
+}
+
+.map img {
+	margin-right: 15px;
+}
+
+.social i {
+	margin-right: 15px;
+}
+
+ul.thumbnails {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul.thumbnails li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 15px;
+}
+
+ul.thumbnails li:first-child {
+	margin-left: 0;
+}
+
+ul.thumbnails li img {
+	border-style: solid;
+	border-color: #0A2769;
+	border-width: 3px;
+}
+
+/* Media Queries */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		header {
+			height: 315px;
+			background: url(../images/BkdDuotone.png) no-repeat center top fixed;
+			-webkit-background-size: auto 100%;
+			-moz-background-size: auto 100%;
+				background-size: auto 100%;
+			border-style: solid;
+			border-color: #DA6D10;
+			border-width: 0px 0px 9px 0px;
+		}
+
+		ul.thumbnails li {
+			display: block;
+			margin: 0;
+		}
+
+		.page {
+			margin-top: 0 !important;
+		}
+
+		nav {
+			clear: both;
+		}
+
+		nav ul li {
+			display: block;
+			border-bottom: 1px solid #7BCDDA;
+		}
+
+		nav li:last-child {
+			border-bottom: none;
+			position:
+		}
+
+		nav a {
+			display: block;
+			text-decoration: none;
+			padding: 7px 0;
+		}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		header {
+			height: 315px;
+			background: url(../images/BkdDuotone.png) no-repeat center top fixed;
+			-webkit-background-size: auto 100%;
+			-moz-background-size: auto 100%;
+		  	background-size: auto 100%;
+			border-style: solid;
+			border-color: #DA6D10;
+			border-width: 0px 0px 9px 0px;
+		}
+
+		.logo {
+			display: block;
+			float: none;
+			margin: 20px auto;
+			max-width: 90%;
+			height: auto;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		header {
+			background: url(../images/BkdDuotone.png) no-repeat center top fixed;
+			-webkit-background-size: auto 100%;
+			-moz-background-size: auto 100%;
+	  		background-size: auto 100%;
+		}
+
+		.logo {
+			display: block;
+			float: none;
+			margin: 20px auto;
+			max-width: 90%;
+			height: auto;
+		}
+
+	}

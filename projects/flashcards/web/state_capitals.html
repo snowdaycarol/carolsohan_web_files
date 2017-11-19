@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>U.S. States and Capitals</title>
+
+	<!--style-->
+	<link rel="stylesheet" href="../styles/state_capitals_styles.css">
+
+</head>
+
+<body>
+	<a href="../index.html">Back home</a>
+	<br /><br />
+	<header>
+		<h1>U.S. States and Capital Cities</h1>
+			<h3>Try to name the capital then click on the state's card to see if you're right. Click again to hide the answer.</h3>
+	</header>
+
+	<div id="buttons"></div>
+
+	<div id="usa">
+		<div class="set n1">
+			<p class="state" data-region="Southeast">Alabama</p>
+			<p class="capital">Montgomery</p>
+		</div>
+		<div class="set n2">
+			<p class="state" data-region="Far West">Alaska</p>
+			<p class="capital">Juneau</p>
+		</div>
+		<div class="set n3">
+			<p class="state" data-region="Southwest">Arizona</p>
+			<p class="capital">Phoenix</p>
+		</div>
+		<div class="set n4">
+			<p class="state" data-region="Southeast">Arkansas</p>
+			<p class="capital">Little Rock</p>
+		</div>
+		<div class="set n5">
+			<p class="state" data-region="Far West">California</p>
+			<p class="capital">Sacramento</p>
+		</div>
+		<div class="set n6">
+			<p class="state" data-region="Rocky Mtn">Colorado</p>
+			<p class="capital">Denver</p>
+		</div>
+		<div class="set n7">
+			<p class="state" data-region="New England">Connecticut</p>
+			<p class="capital">Hartford</p>
+		</div>
+		<div class="set n8">
+			<p class="state" data-region="Mid-Atlantic">Delaware</p>
+			<p class="capital n8">Dover</p>
+		</div>
+		<div class="set n9">
+			<p class="state" data-region="Southeast">Florida</p>
+			<p class="capital">Tallahassee</p>
+		</div>
+		<div class="set n10">
+			<p class="state" data-region="Southeast">Georgia</p>
+			<p class="capital">Atlanta</p>
+		</div>
+		<div class="set n11">
+			<p class="state" data-region="Far West">Hawaii</p>
+			<p class="capital">Honolulu</p>
+		</div>
+		<div class="set n12">
+			<p class="state" data-region="Rocky Mtn">Idaho</p>
+			<p class="capital">Boise</p>
+		</div>
+		<div class="set n13">
+			<p class="state" data-region="Great Lakes">Illinois</p>
+			<p class="capital">Springfield</p>
+		</div>
+		<div class="set n14">
+			<p class="state" data-region="Great Lakes">Indiana</p>
+			<p class="capital">Indianapolis</p>
+		</div>
+		<div class="set n15">
+			<p class="state" data-region="Plains">Iowa</p>
+			<p class="capital">Des Moines</p>
+		</div>
+		<div class="set n16">
+			<p class="state" data-region="Plains">Kansas</p>
+			<p class="capital">Topeka</p>
+		</div>
+		<div class="set n17">
+			<p class="state" data-region="Southeast">Kentucky</p>
+			<p class="capital">Frankfort</p>
+		</div>
+		<div class="set n18">
+			<p class="state" data-region="Southeast">Louisiana</p>
+			<p class="capital">Baton Rouge</p>
+		</div>
+		<div class="set n19">
+			<p class="state" data-region="New England">Maine</p>
+			<p class="capital">Augusta</p>
+		</div>
+		<div class="set n20">
+			<p class="state" data-region="Mid-Atlantic">Maryland</p>
+			<p class="capital">Annapolis</p>
+		</div>
+		<div class="set n21">
+			<p class="state" data-region="New England">Massachusetts</p>
+			<p class="capital">Boston</p>
+		</div>
+		<div class="set n22">
+			<p class="state" data-region="Great Lakes">Michigan</p>
+			<p class="capital">Lansing</p>
+		</div>
+		<div class="set n23">
+			<p class="state" data-region="Plains">Minnesota</p>
+			<p class="capital">St. Paul</p>
+		</div>
+		<div class="set n24">
+			<p class="state" data-region="Southeast">Mississippi</p>
+			<p class="capital">Jackson</p>
+		</div>
+		<div class="set n25">
+			<p class="state" data-region="Plains">Missouri</p>
+			<p class="capital">Jefferson City</p>
+		</div>
+		<div class="set n26">
+			<p class="state" data-region="Rocky Mtn">Montana</p>
+			<p class="capital">Helena</p>
+		</div>
+		<div class="set n27">
+			<p class="state" data-region="Plains">Nebraska</p>
+			<p class="capital">Lincoln</p>
+		</div>
+		<div class="set n28">
+			<p class="state" data-region="Far West">Nevada</p>
+			<p class="capital">Carson City</p>
+		</div>
+		<div class="set n29">
+			<p class="state" data-region="New England">New Hampshire</p>
+			<p class="capital">Concord</p>
+		</div>
+		<div class="set n30">
+			<p class="state" data-region="Mid-Atlantic">New Jersey</p>
+			<p class="capital">Trenton</p>
+		</div>
+		<div class="set n31">
+			<p class="state" data-region="Southwest">New Mexico</p>
+			<p class="capital">Santa Fe</p>
+		</div>
+		<div class="set n32">
+			<p class="state" data-region="Mid-Atlantic">New York</p>
+			<p class="capital">Albany</p>
+		</div>
+		<div class="set n33">
+			<p class="state" data-region="Southeast">North Carolina</p>
+			<p class="capital">Raleigh</p>
+		</div>
+		<div class="set n34">
+			<p class="state" data-region="Plains">North Dakota</p>
+			<p class="capital">Bismarck</p>
+		</div>
+		<div class="set n35">
+			<p class="state" data-region="Great Lakes">Ohio</p>
+			<p class="capital">Columbus</p>
+		</div>
+		<div class="set n36">
+			<p class="state" data-region="Plains">Oklahoma</p>
+			<p class="capital">Oklahoma City</p>
+		</div>
+		<div class="set n37">
+			<p class="state" data-region="Far West">Oregon</p>
+			<p class="capital">Salem</p>
+		</div>
+		<div class="set n38">
+			<p class="state" data-region="Mid-Atlantic">Pennsylvania</p>
+			<p class="capital">Harrisburg</p>
+		</div>
+		<div class="set n39">
+			<p class="state" data-region="New England">Rhode Island</p>
+			<p class="capital">Providence</p>
+		</div>
+		<div class="set n40">
+			<p class="state" data-region="Southeast">South Carolina</p>
+			<p class="capital">Columbia</p>
+		</div>
+		<div class="set n41">
+			<p class="state" data-region="Plains">South Dakota</p>
+			<p class="capital">Pierre</p>
+		</div>
+		<div class="set n42">
+			<p class="state" data-region="Southeast">Tennessee</p>
+			<p class="capital">Nashville</p>
+		</div>
+		<div class="set n43">
+			<p class="state" data-region="Southwest">Texas</p>
+			<p class="capital">Austin</p>
+		</div>
+		<div class="set n44">
+			<p class="state" data-region="Southwest">Utah</p>
+			<p class="capital">Salt Lake City</p>
+		</div>
+		<div class="set n45">
+			<p class="state" data-region="New England">Vermont</p>
+			<p class="capital">Montpelier</p>
+		</div>
+		<div class="set n46">
+			<p class="state" data-region="Southeast">Virginia</p>
+			<p class="capital">Richmond</p>
+		</div>
+		<div class="set n47">
+			<p class="state" data-region="Far West">Washington</p>
+			<p class="capital">Olympia</p>
+		</div>
+		<div class="set n48">
+			<p class="state" data-region="Southeast">West Virginia</p>
+			<p class="capital">Charleston</p>
+		</div>
+		<div class="set n49">
+			<p class="state" data-region="Plains">Wisconsin</p>
+			<p class="capital">Madison</p>
+		</div>
+		<div class="set n50">
+			<p class="state" data-region="Rocky Mtn">Wyoming</p>
+			<p class="capital">Cheyenne</p>
+		</div>
+	</div>
+	<!--javascript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../scripts/state_capitals_scripts.js"></script>
+</body>
+</html>
