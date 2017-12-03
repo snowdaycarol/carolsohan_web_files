@@ -131,6 +131,18 @@ h4 {
 	justify-content: center;
 }
 
+.flex-tile {
+	width: 280px;
+	height: 280px;
+	background: #394544;
+	margin: 20px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 1.75em;
+	color: #d34c2a;
+}
+
 .item {
 	width: 30%;
 	padding: 10px;
