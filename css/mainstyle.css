@@ -81,15 +81,32 @@ li.nav {
 }
 
 
-a:hover {
-	color: #fef100;
+a {
+	color: #ffed96;
 }
+
+a:hover {
+	color: #fa8041;
+}
+
+.nav:link {
+	color: #ffed96;
+	}
+
+.nav:visited {
+	color: #ffed96;
+	}
+
+.nav:hover {
+	 color: #fa8041;
+ 	}
 
 p {
 	font-size: 1.5em;
 }
 
 h1, h2 {
+	text-decoration: none;
 	font-size: 4em;
 	color: #d34c2a;
 }
