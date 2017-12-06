@@ -91,34 +91,23 @@ a:hover {
 
 .nav:link {
 	color: #ffed96;
-	}
+}
 
 .nav:visited {
 	color: #ffed96;
-	}
+}
 
 .nav:hover {
 	 color: #fa8041;
- 	}
-
-p {
-	font-size: 1.5em;
 }
 
-h1, h2 {
-	text-decoration: none;
+h1 {
 	font-size: 4em;
 	color: #d34c2a;
 }
 
-h2 {
-	color: #fef100;
-}
-
-h4 {
-	font-weight: normal;
-	font-size: 2em;
-	color: #d7d7d7;
+#logo {
+	text-decoration: none;
 }
 
 .container {
@@ -143,61 +132,9 @@ h4 {
 	color: #d34c2a;
 }
 
-.item {
-	width: 30%;
-	padding: 10px;
-	color: #263844;
+.tile {
+    position: relative;
 }
-
-h3 {
-	font-size: 2.25vw;
-	color: #263844;
-}
-
-.footer-item {
-	width: 50%;
-	max-width: 776px;
-	padding: 10px;
-}
-
-.contact {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	font-size: 1.5em;
-}
-
-.item-image {
-	position: relative;
-}
-
-img {
-	width: 100%;
-}
-
-.title {
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	margin: auto;
-	top: 45%;
-	left: 2%;
-	z-index: 99;
-}
-
-.name {
-	text-align: left;
-	width: 100%;
-	margin: auto;
-}
-.project-item {
-float: left;
-	width: 50%;
-	color: #d7d7d7;
-
-}
-
 
 
 /* === Media Queries ===*/
